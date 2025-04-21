@@ -20,6 +20,7 @@ public class LinkedList<T> {
 
     public void headcha(T value) {
         Node<T> newNode = new Node<>(value);
+        System.out.println(123);
         //无哨兵版本
     }
 
